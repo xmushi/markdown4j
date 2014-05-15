@@ -7,6 +7,9 @@ public class MyCodePlugin extends Plugin {
     public MyCodePlugin() {
         super("mycode");
     }
+    public MyCodePlugin(String key) {
+        super(key);
+    } 
 
     @Override
     public void emit(StringBuilder out, List<String> lines, Map<String, String> params) {
